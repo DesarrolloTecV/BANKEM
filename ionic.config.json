@@ -1,0 +1,7 @@
+{
+  "name": "Bankem_App",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

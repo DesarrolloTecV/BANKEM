@@ -1,0 +1,64 @@
+<ion-header class="header-Dashboard">
+  <ion-toolbar class="toolbar-dashboard">
+    <!-- <ion-title>Dashboard</ion-title> -->
+    <ion-grid>
+      <ion-row>
+        <ion-col col-1></ion-col>
+        <ion-col col-10 text-center>
+          <img src="../../assets/images/IMAGEN PERFIL CABECERA.png" alt="" class="imagen-header">
+
+        </ion-col>
+        <ion-col col-1>
+
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <span style="font-size: 15px;font-weight: bold;color: white;margin-bottom: 2px;">MAURICIO TOVAR</span> <br>
+          <span style="font-size: 13px;color: white;">Último ingreso: 19/03/2021</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-text-center">
+          <a href="#" style="font-size: 13px;color: white;margin-bottom: 2px;">Ver mi perfil</a> <br>
+          <!-- <span style="font-size: 30px;color: white;font-weight: bold;">$3.000.000</span> -->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+  <br>
+  <br>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <ion-icon name="list-circle-outline" style="font-size: 120px;color: silver; margin-top: 80px;">
+        </ion-icon>
+        <p style="color: silver;">No hay Creditos Anteriores</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar class="toolbar-footer">
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button (click)="Historial()">
+          <ion-icon name="list-circle-outline" style="font-size: 23px;color: #FF457A;"></ion-icon>
+          <ion-label style="color: #FF457A;">Historial</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button (click)="Dashboard()">
+          <ion-icon name="home-outline" style="font-size: 23px;color: #FF457A;"></ion-icon>
+          <ion-label style="color: #FF457A;">Home</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button (click)="Notificacion()">
+          <ion-icon name="notifications-outline" style="font-size: 23px;color: #FF457A;"></ion-icon>
+          <ion-label style="color: #FF457A;">Notificación</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

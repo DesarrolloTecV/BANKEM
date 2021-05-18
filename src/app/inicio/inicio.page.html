@@ -1,0 +1,45 @@
+<ion-content class="body-App">
+
+  <ion-list style="margin-top: 4%;background-color: transparent;">
+    <div class="ion-text-center">
+      <img src="../../assets/images/LOGO BANKEM.png" alt="" class="Imagen-Cabeza">
+
+      <div class="card-login">
+        <!-- <ion-card-content> -->
+          <div>
+            <ion-item lines="none">
+              <ion-label class="estilo-campo1 espacio-campo1" position="fixed">+57</ion-label>
+              <ion-input type="numeric" class="estilo-campo2 espacio-campo1" maxlength="10" placeholder="Numero de Celular"></ion-input>
+            </ion-item>
+
+            <!-- <ion-item lines="none">
+              <ion-input type="password" class="estilo-campo1" placeholder="Password"></ion-input>
+            </ion-item> -->
+
+            <ion-item lines="none">
+              <div class="ion-text-center" style="width: 100%;">
+                <ion-button class="Boton-Inicio" full (click)="Ingresar()">Ingresar</ion-button>
+              </div>
+            </ion-item>
+
+            <ion-item lines="none" style="--background: transparent;">
+              <div class="ion-text-center" style="width: 100%;">
+                <ion-grid>
+                  <ion-row>
+                    <ion-col size="6" class="ion-text-left">
+                      <a class="Boton-Inicio-bajo" (click)="ResetPass()">Recuperar Contraseña</a>
+                    </ion-col>
+                    <ion-col size="6" class="ion-text-right">
+                      <a class="Boton-Inicio-bajo" (click)="Registrar()">Registrarse</a>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </div>
+            </ion-item>
+          </div>
+        <!-- </ion-card-content> -->
+      </div>
+    </div>
+  </ion-list>
+
+</ion-content>

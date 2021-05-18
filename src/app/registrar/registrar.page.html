@@ -1,0 +1,345 @@
+<ion-content class="body-App">
+  <ion-item style="--background: transparent;  margin-left: 30%;margin-top: 35px;" lines="none" class="ion-text-center">
+    <img src="../../assets/images/IMAGEN 1.png" alt="" class="imagen-registro">
+  </ion-item>
+
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" class="ion-text-center">
+          Por favor ingrese sus datos necesarios para registrarse en nuestro sistema y poder aplicar a las oportunidades
+          que tenemos para ti.
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+
+          <button class="accordion">Datos Principales</button>
+
+          <div class="panel">
+
+            <ion-list>
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;" placeholder="Nombre Completo">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Cédula</ion-label> -->
+                <ion-input type="numeric" maxlength="12" class="campos-register" placeholder="Numero de Documento">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating" >Dirección de residencia</ion-label> -->
+                <ion-input type="text" class="campos-register" placeholder="Dirección de residencia"></ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Teléfono</ion-label> -->
+                <ion-input type="numeric" maxlength="10" class="campos-register" placeholder="Teléfono"></ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Teléfono 2</ion-label> -->
+                <ion-input type="numeric" class="campos-register" maxlength="10" placeholder="Teléfono 2">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">A qué empresa pertenece el emprendimiento?</ion-label> -->
+                <ion-textarea type="text" class="campos-register"
+                  placeholder="A qué empresa pertenece el emprendimiento?"></ion-textarea>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Correo electrónico</ion-label> -->
+                <ion-input type="email" class="campos-register" placeholder="Correo electrónico"></ion-input>
+              </ion-item>
+
+            </ion-list>
+          </div>
+          <br>
+
+          <button class="accordion">Información Básica</button>
+          <div class="panel">
+            <ion-list>
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;" placeholder="Tipo de vivienda">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Cédula</ion-label> -->
+                <ion-input type="text" maxlength="12" class="campos-register" placeholder="Tiempo en esa vivienda">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating" >Dirección de residencia</ion-label> -->
+                <ion-input type="text" class="campos-register" placeholder="Dirección de residencia"></ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Teléfono</ion-label> -->
+                <ion-input type="text" maxlength="10" class="campos-register" placeholder="Genero"></ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Teléfono 2</ion-label> -->
+                <ion-input type="text" class="campos-register" maxlength="10" placeholder="Fecha de nacimiento">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">A qué empresa pertenece el emprendimiento?</ion-label> -->
+                <!-- <ion-input type="text" class="campos-register" placeholder="Estado civil"></ion-input> -->
+                <ion-select class="campos-register" style="width: 100%;" placeholder="Estado civil">
+                  <ion-select-option>
+                    Seleccione
+                  </ion-select-option>
+                  <ion-select-option>
+                    Soltero
+                  </ion-select-option>
+                  <ion-select-option>
+                    Casado
+                  </ion-select-option>
+                  <ion-select-option>
+                    Separado
+                  </ion-select-option>
+                  <ion-select-option>
+                    Union Libre
+                  </ion-select-option>
+                </ion-select>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Correo electrónico</ion-label> -->
+                <ion-input type="numeric" class="campos-register" placeholder="Personas a cargo"></ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Correo electrónico</ion-label> -->
+                <ion-input type="numeric" class="campos-register" placeholder="Número de hijos"></ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Correo electrónico</ion-label> -->
+                <ion-input type="text" class="campos-register" placeholder="Fecha expedición de la cédula">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">Correo electrónico</ion-label> -->
+                <!-- <ion-input type="text" class="campos-register" placeholder="Nivel de estudios">
+                </ion-input> -->
+                <ion-select class="campos-register" style="width: 100%;" placeholder="Nivel de estudios">
+                  <ion-select-option>
+                    Seleccione
+                  </ion-select-option>
+                  <ion-select-option>
+                    Primaria
+                  </ion-select-option>
+                  <ion-select-option>
+                    Bachiller
+                  </ion-select-option>
+                  <ion-select-option>
+                    Tecnico
+                  </ion-select-option>
+                  <ion-select-option>
+                    Tecnologo
+                  </ion-select-option>
+                </ion-select>
+              </ion-item>
+
+            </ion-list>
+          </div>
+          <br>
+          <button class="accordion">Referencias</button>
+          <div class="panel">
+            <ion-list>
+
+              <h3>Referencias Personales</h3>
+
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Nombre Referencia 1">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Teléfono Referencia 1">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Nombre Referencia 2">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Teléfono Referencia 2">
+                </ion-input>
+              </ion-item>
+
+
+              <h3>Referencias Familiares</h3>
+
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Nombre Referencia 1">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Teléfono Referencia 1">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Nombre Referencia 2">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Teléfono Referencia 2">
+                </ion-input>
+              </ion-item>
+
+
+
+            </ion-list>
+          </div>
+          <br>
+          <button class="accordion">Referenciador Multinivel</button>
+          <div class="panel">
+            <ion-list>
+
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Nombre Multinivel">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Nombre Referenciador">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Teléfono Referenciador">
+                </ion-input>
+              </ion-item>
+
+            </ion-list>
+          </div>
+          <br>
+          <button class="accordion">Información Financiera</button>
+          <div class="panel">
+            <ion-list>
+
+              <ion-item lines="none">
+                <br>
+                <!-- <ion-label position="floating">Nombre completo</ion-label> -->
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;" placeholder="Banco">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">A qué empresa pertenece el emprendimiento?</ion-label> -->
+                <!-- <ion-input type="text" class="campos-register" placeholder="Estado civil"></ion-input> -->
+                <ion-select class="campos-register" style="width: 100%;" placeholder="Tipo de cuenta">
+                  <ion-select-option>
+                    Seleccione
+                  </ion-select-option>
+                  <ion-select-option>
+                    Ahorros
+                  </ion-select-option>
+                  <ion-select-option>
+                    Corriente
+                  </ion-select-option>
+                </ion-select>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="numeric" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Numéro de cuenta">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;" placeholder="Ingresos">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;" placeholder="Egresos">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <!-- <ion-label position="floating">A qué empresa pertenece el emprendimiento?</ion-label> -->
+                <!-- <ion-input type="text" class="campos-register" placeholder="Estado civil"></ion-input> -->
+                <ion-select class="campos-register" style="width: 100%;" placeholder="Situación laboral">
+                  <ion-select-option>
+                    Empleado
+                  </ion-select-option>
+                  <ion-select-option>
+                    Independiente
+                  </ion-select-option>
+                  <ion-select-option>
+                    Desempleado
+                  </ion-select-option>
+                  <ion-select-option>
+                    Pemsionado
+                  </ion-select-option>
+                </ion-select>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;" placeholder="Monto solicitado">
+                </ion-input>
+              </ion-item>
+
+              <ion-item lines="none">
+                <ion-input type="text" class="campos-register" style="margin-top: 12px;"
+                  placeholder="Cuánto tiempo al dia le dedicarías a tu emprendimiento">
+                </ion-input>
+              </ion-item>
+
+            </ion-list>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-item lines="none">
+      <ion-button style="--background: #4F47BF;width: 100%;height: 40px;">Registrar</ion-button>
+    </ion-item>
+  </ion-toolbar>
+</ion-footer>
